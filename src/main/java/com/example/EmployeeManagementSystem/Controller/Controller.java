@@ -22,10 +22,7 @@ import com.example.EmployeeManagementSystem.Entity.*;
 
 		@GetMapping("Employees")
 		public List<Organization> getEmployeeDetails(){
-			
-//			return Stream.of(new Employee(1, "ABC", "M", "abc@gmail.com", 1234, 20000.0),
-//					new Employee(2, "BCD", "F", "bcd@gmail.com", 2345, 22000.0),
-//					new Employee(4, "CDE", "M", "cde@gmail.com", 3456, 24000.0)).collect(Collectors.toList());
+
 		Employee emp1 = new Employee();
 		emp1.setEmpId(1);
 		emp1.setEmpname("ABC");
